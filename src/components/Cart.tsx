@@ -4,7 +4,7 @@ import RightCol from './RightCol'
 
 const Cart = (props: NoProps) => {
   return (
-    <section className='grid grid-cols-2 h-full'>
+    <section className='grid grid-cols-1 md:grid-cols-2 h-full'>
       <LeftCol />
 
       <RightCol />

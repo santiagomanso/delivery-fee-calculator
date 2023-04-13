@@ -17,7 +17,7 @@ const RightCol = (props: NoProps) => {
     checkRush,
   } = useContext(CartContext) //TODO
   return (
-    <article className='relative group'>
+    <article className='relative group hidden md:block'>
       <button
         className={`absolute duration-700 from-gray-700 to-slate-500 outline-slate-700 opacity-0 group-hover:opacity-40 ${
           active

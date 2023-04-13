@@ -91,23 +91,23 @@ const LeftCol = (props: NoProps) => {
           onChange={(e) => handleChange('value', e)}
           type='number'
           value={value}
-          className='rounded p-1  focus:outline focus:outline-[1px] focus:outline-indigo-500 w-3/4 flex items-center justify-center text-center'
+          className='rounded p-1  focus:outline focus:outline-[1px] focus:outline-indigo-500 w-[130px] md:w-3/4 flex items-center justify-center text-center'
         />
-        <span>€</span>
+        <span className='pl-5 md:pl-0'>€</span>
       </div>
       <div className='grid grid-cols-3 text-xl items-center justify-center px-5'>
         <label htmlFor='deliveryDistance' className='flex flex-col items-start'>
           <span>{text.distance}</span>
         </label>
         <input
-          className='w-3/4 cursor-pointer'
+          className='w-[130px] md:w-3/4 cursor-pointer'
           type='range'
           min={0}
           max={3000}
           value={distance}
           onChange={(e) => handleChange('distance', e)}
         />
-        <span>{distance}m</span>
+        <span className='pl-5 md:pl-0'>{distance}m</span>
       </div>
       <div className='grid grid-cols-3 text-xl items-center justify-center px-5'>
         <label htmlFor='cartValue' className='flex flex-col items-start'>
@@ -117,7 +117,7 @@ const LeftCol = (props: NoProps) => {
           onChange={(e) => handleChange('amount', e)}
           type='number'
           value={amountItems}
-          className='rounded p-1  focus:outline focus:outline-[1px] focus:outline-indigo-500 w-3/4 flex items-center justify-center text-center'
+          className='rounded p-1  focus:outline focus:outline-[1px] focus:outline-indigo-500 w-[130px] md:w-3/4 flex items-center justify-center text-center'
         />
       </div>
       <div className='grid grid-cols-3 text-xl items-center justify-center px-5'>
@@ -129,7 +129,7 @@ const LeftCol = (props: NoProps) => {
           min={today}
           name='datePicker'
           id='datePicker'
-          className='py-1 rounded w-3/4'
+          className='py-1 rounded w-[130px] md:w-3/4'
         />
       </div>
       <div className='grid grid-cols-3 text-xl items-center justify-center px-5'>
@@ -140,7 +140,7 @@ const LeftCol = (props: NoProps) => {
           value={time}
           name=''
           id=''
-          className='py-1 rounded w-3/4'
+          className='py-1 rounded w-[130px] md:w-3/4'
         />
       </div>
       <button

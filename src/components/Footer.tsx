@@ -10,7 +10,7 @@ const Footer = () => {
         href='https://github.com/santiagomanso'
         target='_blank'
         rel='noreferrer'
-        className='text-gray-600 text-xl font-medium font-mono flex items-center gap-2'
+        className='text-gray-600 md:text-xl font-medium font-mono flex items-center gap-2'
       >
         <span className='duration-200'>{text.developBy}</span>
         <span>Santiago Manso Castro</span>
