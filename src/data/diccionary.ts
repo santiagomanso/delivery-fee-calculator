@@ -93,7 +93,7 @@ export const diccionary: Dictionary = {
     playground: 'Leikkipaikka',
     standardDeliveryFee: 'Vakiotoimitusmaksu',
     cartValueFee: 'Ostoskorin arvon maksu',
-    amountItemsFee: 'Bulk-maksu',
+    amountItemsFee: 'määrä-maksu',
     distanceFee: 'Etäisyysmaksu',
     randomValue: 'Satunnaisarvo',
     randomDistance: 'Satunnainen etäisyys',
